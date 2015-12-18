@@ -1,0 +1,25 @@
+{
+  "name": "nom-csv-tools",
+  "version": "1.0.0",
+  "description": "Csv tools for reading and writing csv files.",
+  "main": "lib/index.js",
+  "scripts": {
+    "precommit": "npm run lint",
+    "lint": "jshint lib test && jscs lib test",
+    "test": "lab -t 100 -m 0"
+  },
+  "keywords": [],
+  "author": "Daniel Casper",
+  "license": "ISC",
+  "dependencies": {
+    "csv-stream": "0.1.3",
+    "json2csv": "3.0.1"
+  },
+  "devDependencies": {
+    "code": "2.0.1",
+    "husky": "0.10.2",
+    "jscs": "2.7.0",
+    "jshint": "2.9.0",
+    "lab": "8.0.0"
+  }
+}
