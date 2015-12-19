@@ -1,6 +1,6 @@
 {
   "name": "human-csv-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrappers for reading and writing csv files.",
   "main": "lib/index.js",
   "scripts": {
