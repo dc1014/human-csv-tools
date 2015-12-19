@@ -1,8 +1,12 @@
 {
   "name": "human-csv-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrappers for reading and writing csv files.",
   "main": "lib/index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/dc1014/human-csv-tools.git"
+  },
   "scripts": {
     "precommit": "npm run lint",
     "lint": "jshint lib test && jscs lib test",
