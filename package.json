@@ -1,7 +1,7 @@
 {
-  "name": "nom-csv-tools",
+  "name": "human-csv-tools",
   "version": "1.0.0",
-  "description": "Csv tools for reading and writing csv files.",
+  "description": "Wrappers for reading and writing csv files.",
   "main": "lib/index.js",
   "scripts": {
     "precommit": "npm run lint",
